@@ -6,7 +6,7 @@
 
 ## Overview
 
-Following the The Net Ninja's youtube tutorial for creating a react blog app.
+Following The Net Ninja's youtube tutorial for creating a react blog app.
 
 [The Net Ninja - YT Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d)
 
@@ -24,7 +24,7 @@ npm run dev
 
 <br>
 
-## Link to Live Site of Notes
+## Link to Live Site
 
 [Coming Soon...]()
 
