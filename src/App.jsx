@@ -1,11 +1,13 @@
 import { useState } from "react";
 import Navbar from "./Navbar";
+import Home from "./Home";
 
 function App() {
 	return (
 		<>
-			<div className=" container mx-auto border-2 border-red-500 px-2">
+			<div className=" max-w-2xl mx-auto px-2">
 				<Navbar />
+				<Home />
 			</div>
 		</>
 	);
