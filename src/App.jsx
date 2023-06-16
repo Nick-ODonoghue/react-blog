@@ -1,9 +1,12 @@
 import { useState } from "react";
+import Navbar from "./Navbar";
 
 function App() {
 	return (
 		<>
-			<h1>Joe Blogs</h1>
+			<div className=" container mx-auto border-2 border-red-500 px-2">
+				<Navbar />
+			</div>
 		</>
 	);
 }
