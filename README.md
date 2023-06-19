@@ -22,6 +22,10 @@ npm run dev
 
 - Run the app on your local server
 
+npx json-server --watch data/db.json --port 8000^C
+
+- This will run json server for the fetch post and delete methods
+
 <br>
 
 ## Link to Live Site
