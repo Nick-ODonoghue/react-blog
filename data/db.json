@@ -17,6 +17,12 @@
       "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem necessitatibus sequi illo nobis quidem quisquam at in neque quae nulla ipsum, sint, natus accusamus, ipsa accusantium officiis libero modi unde iure alias quod eum soluta deleniti dolores? Odio quae laboriosam, facere molestias voluptate eos vel, unde optio sunt similique praesentium quos nostrum, cum repellat ea. Sapiente magni iusto qui quam voluptates ad itaque officia eum ratione possimus! Impedit, laborum et exercitationem magnam quia libero voluptatibus neque debitis ducimus sapiente, dolore amet vitae totam corporis magni quidem molestiae! Incidunt sit hic harum inventore. Dolorem, fugiat modi neque quod voluptates omnis commodi.",
       "author": "NickOD.xyz",
       "id": 3
+    },
+    {
+      "title": "test",
+      "body": "testing line breaks\n\nline two\n\nline three\n\nline 4",
+      "author": "NickOC.xyz",
+      "id": 4
     }
   ]
 }

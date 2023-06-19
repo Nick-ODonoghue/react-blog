@@ -27,6 +27,8 @@ function App() {
 					<Route path="/blogs/:id">
 						<BlogDetails />
 					</Route>
+					{/* If you would like to implement a 404 on all none specified url's you can use the * wildcard asterisk in a path */}
+					{/* This needs to be the very last Route sepcified in your switch */}
 					<Route path="*">
 						<NotFound />
 					</Route>

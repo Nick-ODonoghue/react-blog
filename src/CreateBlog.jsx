@@ -10,6 +10,7 @@ const CreateBlog = () => {
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
+		// Setting our blog object to our states before using the fetch post method below
 		const blog = { title, body, author };
 
 		setIsPending(true);
@@ -19,7 +20,6 @@ const CreateBlog = () => {
 			headers: { "content-Type": "application/json" },
 			body: JSON.stringify(blog),
 		}).then(() => {
-			console.log("new blog added");
 			setIsPending(false);
 			history.push("/");
 		});
