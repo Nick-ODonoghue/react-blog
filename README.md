@@ -1,6 +1,6 @@
 <h1 align="center">React Blog YT Tutorial | NickOD.xyz</h1>
 
-![App Screenshot Coming Soon...]()
+![App Screenshot](./public/images/react-blog.jpg)
 
 <br>
 
@@ -32,7 +32,21 @@ npm run dev
 
 ## Sticking Points & What I learned
 
-...
+react-router-dom
+
+- This was the first time I've used the react-router-dom, so it was good to get an understanding of how to use Router, Switch and Route. Along with pointing to the paths needed.
+
+Reusable Custom Hook
+
+- This was my first custom hook as well. While it may not do much in the grand scheme of things it was good to learn how to create one and import it into the components that would need to use it.
+
+Conditional Rendering
+
+- I found this a very useful trick. I will definitelya be mindful of using this in future projects.
+
+useParams
+
+- I've used this technique before when learning Ruby on Rails so it wasn't completely new to me. But none the less was good to see it in practice and understand how to use it in React.
 
 ## Author
 
@@ -43,7 +57,7 @@ npm run dev
 
 ## Useful Resources
 
-...
+[React Docs](https://react.dev/learn)
 
 <br>
 
