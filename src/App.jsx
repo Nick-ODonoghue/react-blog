@@ -2,6 +2,7 @@ import Navbar from "./Navbar";
 import Home from "./Home";
 import CreateBlog from "./CreateBlog";
 import BlogDetails from "./BlogDetails";
+import NotFound from "./NotFound";
 
 // Importing everything needed for using React Router
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom/cjs/react-router-dom.min";
@@ -25,6 +26,9 @@ function App() {
 					</Route>
 					<Route path="/blogs/:id">
 						<BlogDetails />
+					</Route>
+					<Route path="*">
+						<NotFound />
 					</Route>
 				</Switch>
 			</div>

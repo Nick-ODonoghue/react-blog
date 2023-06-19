@@ -23,7 +23,6 @@ const BlogDetails = () => {
 
 	return (
 		<div className=" py-6">
-			{/* <h2 className=" text-xl font-semibold mb-2">Blog Details {id}</h2> */}
 			{isLoading && <div>Loading blog...</div>}
 			{error && <div>{error}</div>}
 			{blog && (
